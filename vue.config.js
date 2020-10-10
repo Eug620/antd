@@ -1,7 +1,7 @@
 /*
  * @Author: yeyuhang
  * @Date: 2020-10-10 14:49:15
- * @LastEditTime: 2020-10-10 15:50:33
+ * @LastEditTime: 2020-10-10 16:27:06
  * @LastEditors: yeyuhang
  * @Descripttion: 头部注释
  */
@@ -58,8 +58,8 @@ module.exports = {
       }
     }
   },
-  publicPath: process.env.NODE_ENV === 'production' ? '/antd/' : '/antd/',
-  // outputDir: 'dist',
+  publicPath: process.env.NODE_ENV === 'production' ? '/' : '/',
+  outputDir: 'dist',
   assetsDir: 'static',
   productionSourceMap: false
 }
