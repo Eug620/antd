@@ -15,5 +15,5 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.SECRETS }}
         BRANCH: gh-pages
-        FOLDER: build
-        BUILD_SCRIPT: npm install && npm run deploy
+        FOLDER: predeploy
+        BUILD_SCRIPT: npm install && npm run predeploy
