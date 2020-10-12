@@ -2,6 +2,7 @@
   "name": "antd",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://eug620.github.io/antd",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
